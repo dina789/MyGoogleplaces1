@@ -20,6 +20,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 
+import hk.ust.cse.comp107x.mygoogleplaces1.models.PlaceModels;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

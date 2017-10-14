@@ -1,4 +1,4 @@
-package hk.ust.cse.comp107x.mygoogleplaces1;
+package hk.ust.cse.comp107x.mygoogleplaces1.models;
 
 import java.io.Serializable;
 
@@ -43,10 +43,24 @@ public class PlaceModels implements Serializable {
     {
         return address;
     }
+    http://www.jsonschema2pojo.org/
+    public Boolean getOpenNow() {
 
+        return openNow;
+    }
+
+    public void setOpenNow(Boolean openNow) {
+        this.openNow = openNow;
+    }
 
     public String getFormat() {
         return format;
+    }public String getPhotoReference() {
+        return photoReference;
+    }
+
+    public void setPhotoReference(String photoReference) {
+        this.photoReference = photoReference;
     }
 
 

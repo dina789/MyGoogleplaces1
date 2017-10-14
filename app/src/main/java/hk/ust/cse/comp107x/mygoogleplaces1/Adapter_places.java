@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
+import hk.ust.cse.comp107x.mygoogleplaces1.models.PlaceModels;
+
 public class Adapter_places extends ArrayAdapter<PlaceModels> {
 
         public Adapter_places(@NonNull Context context, @NonNull PlaceModels[] objects) {
@@ -31,6 +33,7 @@ public class Adapter_places extends ArrayAdapter<PlaceModels> {
         //Picasso.with(context).load(src).into(imageView );
         Picasso.with(getContext()).load("maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=CnRtAAAATLZNl354RwP_9UKbQ_5Psy40texXePv4oAlgP4qNEkdIrkyse7rPXYGd9D_Uj1rVsQdWT4oRz4QrYAJNpFX7rzqqMlZw2h2E2y5IKMUZ7ouD_SlcHxYq1yL4KbKUv3qtWgTK0A6QbGh87GB3sscrHRIQiG2RrmU_jF4tENr9wGS_YxoUSSDrYjWmrNfeEHSGSc3FyhNLlBU&key=AIzaSyB3eBGcB57xsUEM9zrpblxU-KvEhEKE1EA" + placesModel.getFormat()).into(image);
         TextView mapType = (TextView) convertView.findViewById(R.id.textView);
+        //"http://maps.google.com/maps/api/staticmap?center=" + latEiffelTower + "," + lngEiffelTower + "&zoom=15&size=200x200&sensor=true";
 
 
         return convertView;

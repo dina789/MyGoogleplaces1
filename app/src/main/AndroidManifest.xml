@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PlaceModels" />
+        <activity android:name=".models.PlaceModels" />
         <activity android:name=".Adapter_places"></activity>
     </application>
 

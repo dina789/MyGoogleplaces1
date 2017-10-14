@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hk.ust.cse.comp107x.mygoogleplaces1.PlaceModels">
+    tools:context="hk.ust.cse.comp107x.mygoogleplaces1.models.PlaceModels">
 
     <ImageView
         android:id="@+id/imageView"
