@@ -45,5 +45,10 @@ public class PlaceModels implements Serializable {
     }
 
 
+    public String getFormat() {
+        return format;
+    }
+
+
 }
 
